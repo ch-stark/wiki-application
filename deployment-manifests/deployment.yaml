@@ -15,6 +15,7 @@ spec:
       labels:
         app: wiki
     spec:
+      serviceAccountName: pipeline
       containers:
       - image: docker.io/hriships/wiki
         name: wiki
