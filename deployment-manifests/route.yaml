@@ -6,12 +6,9 @@ metadata:
     app: wiki
   name: wiki
 spec:
-  host: ""
   port:
     targetPort: 8080
   to:
-    kind: ""
+    kind: Service
     name: wiki
-    weight: null
-status:
-  ingress: null
+
