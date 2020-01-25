@@ -1,0 +1,17 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app: wiki
+  name: wiki
+spec:
+  host: ""
+  port:
+    targetPort: 8080
+  to:
+    kind: ""
+    name: wiki
+    weight: null
+status:
+  ingress: null
